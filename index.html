@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>    
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Fundamental Web Development</title>
+    <!-- CSS untuk styling halaman -->
+    <style>
+        /* Style untuk body */
+        body {
+            font-family: Arial, sans-serif; 
+            background-color: #f4f4f4; 
+            margin: 0;
+            padding: 20px;
+        }
+        /* Style untuk container profil */
+        .profile-container {
+            background-color: #fff; 
+            padding: 40px; /* Lebih banyak padding untuk kontainer */
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px; /* Lebih lebar maksimal */
+            margin: 40px auto; /* Lebih banyak margin untuk border yang lebih lebar */
+        }
+        /* Style untuk gambar profil */
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            object-fit: cover; 
+            display: block;
+            margin: 0 auto 20px; 
+        }
+        /* Style untuk informasi profil */
+        .profile-info {
+            text-align: center; 
+            margin-bottom: 20px;
+        }
+        .profile-info h1 {
+            margin: 0 0 10px; 
+        }
+        .profile-info p {
+            margin: 5px 0; 
+        }
+        /* Style untuk tabel */
+        table {
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd; 
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Style untuk link */
+        a {
+            color: #3498db;
+            text-decoration: none; 
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Container utama untuk profil -->
+<div class="profile-container">
+    <img src="Vecky.jpg" alt="Profile Picture" class="profile-pic">
+    <div class="profile-info">
+        <h1>Angelus Vecky K.T.</h1>
+        <p>Umur: 33</p>
+        <p>Batch: Batch 04 Belajar Fundamental Web Development</p>
+    </div>
+    <!-- Tabel tugas mandiri -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nomor</th>
+                <th>Tanggal</th>
+                <th>Tugas Mandiri</th>
+            </tr>
+        </thead>
+        <tbody>            
+            <tr>
+                <td>1</td>
+                <td>13 Juni 2024</td>
+                <td><a href="http://127.0.0.1:5500/Sesi_07/index_TMP_Sesi_07.html" onclick="alert('Tugas Mandiri Sesi 07')">Tugas Mandiri Sesi 07</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>14 Juni 2024</td>
+                <td>Tugas Mandiri Sesi 08</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

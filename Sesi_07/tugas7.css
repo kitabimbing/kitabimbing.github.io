@@ -1,0 +1,152 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+  justify-content: space-between;
+
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
+
+.profile-container {
+  display: flex;  
+  background-color: none;
+  padding: 20px;  
+  margin: 20px auto;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 2px solid;
+  border-color: rgb(245, 137, 98);
+  }
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.name {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.role {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+#detail {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#detail table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#detail table td {
+  padding: 8px;
+  font-size: 16px;
+  color: #000000;
+}
+
+#detail strong {
+  font-weight: bold;
+  color: #000000;
+}
+
+.action {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.contact-button {
+  background-color: #0026d1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  border-color: #f4f4f4;
+  border-radius: 1em;
+}
+
+.resume-button {
+  background-color: #ecf0ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #005c00;
+  border-color: #4cbb35;
+  border-radius: 1em;
+  }
+
+.contact-button:hover, .resume-button:hover {
+  opacity: 0.8;
+}
+
